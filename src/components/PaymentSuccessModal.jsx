@@ -35,16 +35,16 @@ export default function PaymentSuccessModal() {
 
         {/* Mensaje */}
         <p className="text-center text-lg font-medium mb-6">
-          Payment successful! 🎉
+          Pago Exitoso! 
         </p>
 
         {/* Botón continuar */}
         <div className="flex justify-center">
           <button
-            onClick={() => navigate("/dashboard")} // 👈 cambia la ruta aquí
+            onClick={() => navigate("/Home")} // 👈 cambia la ruta aquí
             className="bg-red-600 hover:bg-red-700 px-6 py-2 rounded-md font-semibold text-white transition"
           >
-            Continue
+            Continuar
           </button>
         </div>
       </div>

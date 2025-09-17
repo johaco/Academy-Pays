@@ -34,7 +34,7 @@ const plans = [
       "Sabados de Sparring",
     ],
     cta: "Pagar",
-    url: "https://www.mercadopago.com.ar/subscriptions/checkout?preapproval_plan_id=1a5e2f3b1e4e4f6fa6f0f8e2c9b7c8d3",
+    url: "https://www.mercadopago.com.ar/subscriptions/checkout?preapproval_plan_id=0112ea31f9534f4fb7e79936e637f504",
   },
 ];
 
