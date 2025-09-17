@@ -18,7 +18,15 @@ function CheckIcon() {
   );
 }
 
-export default function PlanCard({ title, description, price, periodLabel, features, cta }) {
+export default function PlanCard({
+  title,
+  description,
+  price,
+  periodLabel,
+  features,
+  cta,
+  url,
+}) {
   return (
     <article className="bg-slate-800 rounded-lg border border-slate-700 p-6 shadow-md">
       <header className="text-center mb-6">
@@ -28,8 +36,12 @@ export default function PlanCard({ title, description, price, periodLabel, featu
 
       <div className="text-center mb-6">
         <div className="flex items-baseline justify-center gap-3">
-          <span className="text-6xl md:text-8xl font-extrabold text-white">${price}</span>
-          <span className="text-slate-400 text-base self-end">{periodLabel}</span>
+          <span className="text-6xl md:text-8xl font-extrabold text-white">
+            ${price}
+          </span>
+          <span className="text-slate-400 text-base self-end">
+            {periodLabel}
+          </span>
         </div>
       </div>
 
@@ -43,12 +55,12 @@ export default function PlanCard({ title, description, price, periodLabel, featu
       </ul>
 
       <div className="text-center">
-        <button
-          type="button"
-          className="inline-block w-full md:w-auto px-6 py-3 bg-red-600 hover:bg-red-500 text-white rounded-lg font-medium shadow-sm transition"
+        <a
+          href={url}
+          className="inline-block w-full md:w-auto px-6 py-3 bg-red-600 hover:bg-red-500 text-white rounded-lg font-medium shadow-sm transition text-center"
         >
           {cta}
-        </button>
+        </a>
       </div>
     </article>
   );

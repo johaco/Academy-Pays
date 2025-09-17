@@ -17,6 +17,7 @@ const plans = [
       "Cede en Junin y Rivadavia",
     ],
     cta: "Pagar",
+    url: "https://www.mercadopago.com.ar/subscriptions/checkout?preapproval_plan_id=05cc5608396f4ed69278fbfeea418492",
   },
   {
     id: "company",
@@ -33,6 +34,7 @@ const plans = [
       "Sabados de Sparring",
     ],
     cta: "Pagar",
+    url: "https://www.mercadopago.com.ar/subscriptions/checkout?preapproval_plan_id=1a5e2f3b1e4e4f6fa6f0f8e2c9b7c8d3",
   },
 ];
 
