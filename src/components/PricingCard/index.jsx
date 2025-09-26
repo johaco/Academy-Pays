@@ -6,7 +6,7 @@ const plans = [
     id: "starter",
     title: "Clases De Jiu Jitsu",
     description: "Con este plan accedes a todas las clases de Jiu Jitsu en Zona Este.",
-    price: "20.000",
+    price: 20.000,
     periodLabel: "/mes",
     features: [
       "Clases mixtas",
@@ -23,7 +23,7 @@ const plans = [
     id: "company",
     title: "Clases De MMA",
     description: "Con este plan accedes a todas las clases de MMA en Zona Este, ademas de Jiu JItsu y Kick Boxing.",
-    price: "30.000",
+    price: 30.000,
     periodLabel: "/mes",
     features: [
       "Clases mixtas",

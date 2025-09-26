@@ -37,7 +37,7 @@ export default function PlanCard({
       <div className="text-center mb-6">
         <div className="flex items-baseline justify-center gap-3">
           <span className="text-6xl md:text-8xl font-extrabold text-white">
-            ${price}
+            ${price.toLocaleString("es-AR")}
           </span>
           <span className="text-slate-400 text-base self-end">
             {periodLabel}
