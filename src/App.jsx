@@ -11,6 +11,8 @@ function App() {
 
         {/* Página a la que Mercado Pago redirige después del pago */}
         <Route path="/payment-success" element={<PaymentSuccess />} />
+        <Route path="/payment-failure" element={<h1>Pago fallido</h1>} />
+        <Route path="/payment-pending" element={<h1>Pago pendiente</h1>} />
 
        
       </Routes>
