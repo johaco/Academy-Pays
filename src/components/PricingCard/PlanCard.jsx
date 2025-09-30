@@ -29,6 +29,12 @@ export default function PlanCard({
 }) {
   return (
     <article className="bg-slate-800 rounded-lg border border-slate-700 p-6 shadow-md">
+
+      <div className="absolute -top-8 left-1/2 transform -translate-x-1/2 bg-slate-800 rounded-full border border-slate-700 shadow-md p-2">
+        <img src={logo} alt={`${title} logo`} className="w-16 h-16 object-contain" />
+      </div>
+
+
       <header className="text-center mb-6">
         <h3 className="text-2xl font-semibold text-white mb-2">{title}</h3>
         <p className="text-slate-300 text-lg">{description}</p>
