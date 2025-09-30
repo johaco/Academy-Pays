@@ -26,6 +26,7 @@ export default function PlanCard({
   features,
   cta,
   url,
+  logo,
 }) {
   return (
     <article className="bg-slate-800 rounded-lg border border-slate-700 p-6 shadow-md">
