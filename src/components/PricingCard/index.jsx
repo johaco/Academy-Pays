@@ -18,7 +18,7 @@ const plans = [
     ],
     cta: "Pagar",
     url: "https://www.mercadopago.com.ar/subscriptions/checkout?preapproval_plan_id=05cc5608396f4ed69278fbfeea418492",
-    logo: "/dist/assets/img/PARCHE-CICERO.jpg",
+    logo: "/public/img/PARCHE-CICERO.jpg",
   },
   {
     id: "company",
@@ -36,7 +36,7 @@ const plans = [
     ],
     cta: "Pagar",
     url: "https://www.mercadopago.com.ar/subscriptions/checkout?preapproval_plan_id=0112ea31f9534f4fb7e79936e637f504",
-    logo: "/dist/assets/img/picantes-mma.png",
+    logo: "/public/img/picantes-mma.png",
   },
 ];
 
