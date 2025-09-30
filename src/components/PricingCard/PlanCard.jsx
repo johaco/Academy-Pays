@@ -29,12 +29,15 @@ export default function PlanCard({
   logo,
 }) {
   return (
-    <article className="bg-slate-800 rounded-lg border border-slate-700 p-6 shadow-md">
-
+    <article className="relative bg-slate-800 rounded-lg border border-slate-700 p-6 shadow-md pt-12">
+      {/* 🔽 Logo centrado arriba */}
       <div className="absolute -top-8 left-1/2 transform -translate-x-1/2 bg-slate-800 rounded-full border border-slate-700 shadow-md p-2">
-        <img src={logo} alt={`${title} logo`} className="w-16 h-16 object-contain" />
+        <img
+          src={logo}
+          alt={`${title} logo`}
+          className="w-16 h-16 object-contain rounded-full"
+        />
       </div>
-
 
       <header className="text-center mb-6">
         <h3 className="text-2xl font-semibold text-white mb-2">{title}</h3>
