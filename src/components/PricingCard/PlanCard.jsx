@@ -29,8 +29,9 @@ export default function PlanCard({
   logo,
 }) {
   return (
-    <article className="relative bg-slate-800 rounded-lg border border-slate-700 p-6 shadow-md pt-12">
-      {/* 🔽 Logo centrado arriba */}
+    // h-full + flex-col para forzar igual altura y distribuir verticalmente
+    <article className="relative bg-slate-800 rounded-lg border border-slate-700 p-6 shadow-md pt-12 h-full flex flex-col md:min-h-[520px]">
+      {/* Logo */}
       <div className="absolute -top-8 left-1/2 transform -translate-x-1/2 bg-slate-800 rounded-full border border-slate-700 shadow-md p-2">
         <img
           src={logo}
@@ -55,16 +56,19 @@ export default function PlanCard({
         </div>
       </div>
 
-      <ul className="space-y-3 mb-6">
+      {/* Esta sección crece para empujar el botón al final */}
+      <ul className="space-y-3 mb-6 flex-1">
         {features.map((f, i) => (
+          // flex y span con flex-1 para que las líneas envuelvan correctamente
           <li key={i} className="flex items-start text-slate-200 text-lg">
             <CheckIcon />
-            <span className="leading-tight">{f}</span>
+            <span className="leading-tight flex-1">{f}</span>
           </li>
         ))}
       </ul>
 
-      <div className="text-center">
+      {/* botón pegado al final */}
+      <div className="text-center mt-auto">
         <a
           href={url}
           className="inline-block w-full md:w-auto px-6 py-3 bg-red-600 hover:bg-red-500 text-white rounded-lg font-medium shadow-sm transition text-center"
