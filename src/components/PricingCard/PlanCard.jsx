@@ -62,7 +62,9 @@ export default function PlanCard({
           // flex y span con flex-1 para que las líneas envuelvan correctamente
           <li key={i} className="flex items-start text-slate-200 text-lg">
             <CheckIcon />
-            <span className="leading-tight flex-1">{f}</span>
+            <span className="leading-tight flex-1 block pl-1 text-left">
+              {f}
+            </span>
           </li>
         ))}
       </ul>
