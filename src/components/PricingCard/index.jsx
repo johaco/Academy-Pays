@@ -17,7 +17,7 @@ const plans = [
       "Cede en Junin y Rivadavia",
     ],
     cta: "Pagar",
-    url: "https://www.mercadopago.com.ar/subscriptions/checkout?preapproval_plan_id=05cc5608396f4ed69278fbfeea418492",
+    url: "https://www.mercadopago.com.ar/subscriptions/checkout?preapproval_plan_id=340866ac3165478e92ae452e64217c2f",
     logo: "/img/PARCHE-CICERO.jpg",
   },
   {
@@ -35,7 +35,7 @@ const plans = [
       "Sabados de Sparring",
     ],
     cta: "Pagar",
-    url: "https://www.mercadopago.com.ar/subscriptions/checkout?preapproval_plan_id=0112ea31f9534f4fb7e79936e637f504",
+    url: "https://www.mercadopago.com.ar/subscriptions/checkout?preapproval_plan_id=ec44ef3c47ee47119d3a1330adc45240",
     logo: "/img/picantes-mma.png",
   },
 ];
